@@ -13,7 +13,7 @@ namespace Ticketing
     {
         TicketPrice mTicketPrice;
         int mSection = 2;
-        int mQuantity = 0;
+        int mQuantity = 1;
         bool mDiscount = false;
 
         public TicketsForm()
@@ -45,5 +45,10 @@ namespace Ticketing
             mTicketPrice.calculatePrice();
             lblAmount.Text = System.Convert.ToString(mTicketPrice.AmountDue);
         }
-     }
+
+        private void radGeneral_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

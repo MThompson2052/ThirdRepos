@@ -105,6 +105,7 @@
             this.radGeneral.TabStop = true;
             this.radGeneral.Text = "General";
             this.radGeneral.UseVisualStyleBackColor = true;
+            this.radGeneral.CheckedChanged += new System.EventHandler(this.radGeneral_CheckedChanged);
             // 
             // radBox
             // 
