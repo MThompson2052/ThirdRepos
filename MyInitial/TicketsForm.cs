@@ -12,7 +12,7 @@ namespace Ticketing
     public partial class TicketsForm : Form
     {
         TicketPrice mTicketPrice;
-        int mSection = 2;
+        int mSection = 3;
         int mQuantity = 0;
         bool mDiscount = false;
 
